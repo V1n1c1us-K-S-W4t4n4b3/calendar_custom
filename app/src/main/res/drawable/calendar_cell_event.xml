@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#B84242" />
-    <corners android:radius="10dp" />
+    <!-- Define o radius para um valor grande o suficiente para tornar o drawable um círculo -->
+    <corners android:radius="300dp" />
     <stroke
         android:width="2dp"
         android:color="#AE5D5D" />
