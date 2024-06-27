@@ -1,6 +1,5 @@
 package com.kzdev.calendar_custom
 
-import android.icu.util.Calendar
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.kzdev.calendar_custom.databinding.ActivityMainBinding

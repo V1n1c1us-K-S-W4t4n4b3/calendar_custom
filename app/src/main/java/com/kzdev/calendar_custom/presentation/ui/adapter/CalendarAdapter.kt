@@ -16,7 +16,6 @@ import java.util.Calendar
 import java.util.Date
 import java.util.Locale
 
-
 class CalendarAdapter(
     val events: List<Date>,
     val context: Context,
@@ -49,7 +48,7 @@ class CalendarAdapter(
                     }
                     if (isEventDay) {
                         binding.backgroundConstraint.background =
-                            ContextCompat.getDrawable(context, R.drawable.calendar_cell_event)
+                            ContextCompat.getDrawable(context, R.drawable.calendar_cell_have_event)
                     } else {
                         binding.backgroundConstraint.background =
                             ContextCompat.getDrawable(context, R.drawable.calendar_cell_background)
@@ -85,7 +84,6 @@ class CalendarAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(getItem(position))
-
     }
 }
 
